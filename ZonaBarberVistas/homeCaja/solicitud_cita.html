@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header> <!--ENCABEZADO DE LA PAGINA -->
+        <div class="caja">
+            <h1><img src="img/LogoZonaBarber.png"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="solicitud_cita.html">Servicios</a></li>
+                    <li><a href="horario_cita.html">Citas</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main> <!-- Cuadro de servicios -->
+        <ul class="productos">
+            <li> <!-- -->
+                <h2>Cabello</h2>
+                <label for="radio-cabello"><input type="radio" name="productos" value="cabello" id="radio-cabello"></label>
+                <img src="img/cabello.jpg">
+                <p class="producto-descripcion">Con tijera o máquina, a gusto del cliente</p>
+                <p class="producto-precio">$ 10.000</p>
+            </li>
+            <li>
+                <h2>Barba</h2>
+                <label for="radio-barba"><input type="radio" name="productos" value="barba" id="radio-barba"></label>
+                <img src="img/barba.jpg">
+                <p class="producto-descripcion">Corte y diseño profesional de barba</p>
+                <p class="producto-precio">$ 08.000</p>
+            </li>
+            <li>
+                <h2>Cabello + Barba</h2>
+                <label for="radio-cabellobarba"><input type="radio" name="productos" value="cabellobarba" id="radio-cabellobarba"></label>
+                <img src="img/cabello+barba.jpg">
+                <p class="producto-descripcion">Paquete completo de cabello y barba</p>
+                <p class="producto-precio">$ 15.000</p>
+            </li>
+        </ul>
+
+        <form>
+            <fieldset>
+                <legend>¿En cuál horario prefiere ser atendido?</legend>
+                <input type="date" name="" id="">
+                <select>
+                    <option>Mañana</option>
+                    <option>Tarde</option>
+                    <option>Noche</option>
+                </select>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer> <!-- PIE DE PAGINA -->
+        <img src="img/zonabarberBlanco.png">
+        <p class="copyright">&copy Copyright Zona Barber - 2023</p>
+    </footer>
